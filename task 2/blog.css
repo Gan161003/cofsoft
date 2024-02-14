@@ -1,0 +1,135 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 15vh;
+    width: 100vw;
+    background-color: rgba(86, 84, 68, 0.797) ;
+}
+.logo{
+    text-decoration: none;
+    display: flex;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.logo h1{
+    background-color: red;
+
+    border-radius: 10px;
+    color: rgb(3, 3, 3);
+}
+.logo h2{
+    color: rgb(247, 243, 243);
+    /* background-color: rgb(241, 233, 233); */
+    border-radius: 10px;
+}
+
+.navbar{
+
+    
+    display: flex;
+    margin: 30px;
+    height:10vh ;
+    width: 30vw;
+    justify-content: space-between; 
+    align-items: center;
+    
+    background-color: transparent;
+}
+.navbar a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* height: 85vh; */
+    width: 100vw;
+    background-color: antiquewhite;
+
+}
+.main h1{
+
+    position: absolute;
+    top: 15vh;
+    left: 44vw;
+}
+
+.bform{
+    display: grid;
+    position: absolute;
+    top: 30vh;
+    left: 40vw;
+    height: 50vh;
+    width: 50vw;
+}
+
+.title{
+    display: grid;
+}
+.tit{
+    position: absolute;
+    top: -3vh;
+    padding-left: 5vw;
+    font-size: 30px;
+    color: brown;
+}
+.titbox{
+    position: absolute; 
+    top: 3vh;
+    left: -5vw; 
+    height: 5vh;
+    width: 30vw;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.con{
+    position: absolute; 
+    top: 15vh;
+    padding-left: 5vw;
+    font-size: 30px;
+    color: brown;
+    
+}
+textarea{
+    position: absolute;
+    top: 20vh;
+    left: -15vw;
+    height: 40vh;
+    width: 50vw;
+    border-radius:10px ;
+    font-size: 20px;
+}
+button{
+    position: absolute;
+    top: 67vh;
+    left: -5vw;
+    height: 5vh;
+    width: 30vw;
+    background-color: brown;
+    font-size: 20px;
+
+}
+button :hover{
+    position: absolute;
+    top: 67vh;
+    left: -5vw;
+    height: 5vh;
+    width: 30vw;
+    background-color: rgb(254, 248, 248);
+    color: black;
+    font-size: 20px;
+
+}

@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+.page{
+    background-image: url(source/about.jpeg);
+    background-size: 100%;
+    height: 100vh;
+    width: 100vw;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 15vh;
+    width: 100vw;
+    background-color: rgba(86, 84, 68, 0.797) ;
+}
+.logo{
+    text-decoration: none;
+    display: flex;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.logo h1{
+    background-color: red;
+
+    border-radius: 10px;
+    color: rgb(3, 3, 3);
+}
+.logo h2{
+    color: rgb(247, 243, 243);
+    /* background-color: rgb(241, 233, 233); */
+    border-radius: 10px;
+}
+
+.navbar{
+
+    
+    display: flex;
+    margin: 30px;
+    height:10vh ;
+    width: 30vw;
+    justify-content: space-between; 
+    align-items: center;
+    
+    background-color: transparent;
+}
+.navbar a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+
+.mainbody{
+    height: 85vh;
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mainbody{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.title h1{
+    font-size: 100px;
+    color: white;
+
+}
+.mess{
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 252, 252);
+}
+.about{
+    padding: 30px;
+}

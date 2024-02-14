@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book.in.com</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="logo">
+                <a href="home.html" class="logo"><h2>Book</h2><h1>in</h1><h2>.com</h2></a>
+            </div>
+
+            <div class="navbar">
+                <a class="a1" href="home.html">HOME</a>
+                <a class="a1" href="about.html">ABOUT</a>
+                <!-- <a class="a1" href="tour.html">TOUR</a> -->
+                <a class="a1" href="blog.html">BLOG</a>
+                <a class="a1" href="contact.html">CONTACT</a>
+                <a class="a1" href="log-in.php">LOG-IN</a>
+                </navbar>
+
+        </header>
+
+        <div class="mainbody">
+            <div class="rform">
+                <form action="/action_page.php">
+                    <div class="fname">
+                        <label for="fname">From</label><br>
+                        <input type="text" class="box" id="fname" name="fname" placeholder=" your starting "  />
+                    </div>
+
+                    <div class="lname">
+                        <label for="lname">To</label><br>
+                        <input type="text" class="box" id="name" name="name" placeholder="your destination" />
+                    </div>
+
+                    <div class="when"><label for="when">Date</label>
+                        <input type="date" id="when" name="when"></div>
+                    
+                        <label for="class">Class</label>
+                        <select name="class" id="class" form="class">
+                          <option value="economy">Economy</option>
+                          <option value="business">Business</option>
+                          
+                        
+                        </select>
+
+                    <div class="quantity">
+
+                    <div class="adult">
+                    <label for="adult">Adult</label>
+                    <input type="number" id="adult" name="adult" min="1" max="100" placeholder="0"></div>
+
+                    <div class="teen">
+                    <label for="teen">Teen</label>
+                    <input type="number" id="teen" name="teen" min="1" max="100" placeholder="0"></div>
+                    </div>
+                    
+
+
+                    <div class="sumbit">
+                        <!-- <input type="text" id="searchInput" placeholder="Search..."> -->
+                         <button type="button" onclick="searchFunction()">Search...</button>
+                </rform>
+
+            </div>
+        </div>
+        
+    </div>
+    
+    
+
+    <div class="footer">
+        <h1>Book.in pvt. ltd. &copy; <br><h5>all rights reserved</h5> </h1>
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

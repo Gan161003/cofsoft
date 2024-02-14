@@ -1,0 +1,41 @@
+@font-face {
+    font-family: myfont;
+    src: url(source/font3.otf);
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.container img{
+    padding-top: 5vh;
+    padding-left: 30vw;
+    height: 40vh;
+    width: 40vw;
+ 
+}
+.container h1{
+    padding-top: 2vh;
+    padding-left: 35vw;
+    font-size: 50px;
+    color: rgb(62, 2, 12);
+}
+.container h2{
+    padding-top: 2vh;
+    padding-left: 35vw;
+    font-size: 35px;
+    font-family: myfont;
+    color: rgb(78, 5, 75);
+    
+}
+.container p{
+    padding-top: 2.5vh;
+    padding-left: 9vw;
+    padding-right: 9vw;
+    font-size: 30px;
+}
+.page{
+    margin: 25px;
+    /* padding: 10px; */
+    border: 2px solid black ;
+}

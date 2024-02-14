@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="logo">
+                <a href="home.html" class="logo">
+                    <h2>Book</h2>
+                    <h1>in</h1>
+                    <h2>.com</h2>
+                </a>
+            </div>
+
+            <div class="navbar">
+                <a class="a1" href="home.html">HOME</a>
+                <a class="a1" href="about.html">ABOUT</a>
+                <a class="a1" href="blog.html">BLOG</a>
+                <a class="a1" href="contact.html">CONTACT</a>
+                <a class="a1" href="log-in.php">LOG-IN</a>
+                </navbar>
+
+        </header>
+         
+        <div class="main">
+        <h1>My Blog</h1>
+        <div class="bform">
+        <form id="blogForm">
+            <div class="title">
+            <label class="tit" for="title">Title</label>
+            <input class="titbox" type="text" id="title" name="title" placeholder="enter your title" required><br><br></div>
+            <div class="cont">
+            <label class="con">Content</label><br>
+            <textarea id="content" name="content" placeholder="enter your content here........... " required></textarea><br><br></div>
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+
+        <div id="blogPosts">
+            <!-- Blog posts will be displayed here -->
+        </div>
+    </div>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

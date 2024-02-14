@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.page{
+    background-image: url(https://highqualitytravel.files.wordpress.com/2017/02/cropped-cb3db4b94cdc8a8fff74e2fac7cd6cb8-chiang-mai.jpg);
+    background-size: 100%;
+    height: 100vh;
+    width: 100vw;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 15vh;
+    width: 100vw;
+    background-color: rgba(86, 84, 68, 0.797) ;
+}
+.logo{
+    text-decoration: none;
+    display: flex;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.logo h1{
+    background-color: red;
+
+    border-radius: 10px;
+    color: rgb(3, 3, 3);
+}
+.logo h2{
+    color: rgb(247, 243, 243);
+    /* background-color: rgb(241, 233, 233); */
+    border-radius: 10px;
+}
+
+.navbar{
+
+    
+    display: flex;
+    margin: 30px;
+    height:10vh ;
+    width: 30vw;
+    justify-content: space-between; 
+    align-items: center;
+    
+    background-color: transparent;
+}
+.navbar a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.footer{
+    height: 20vh;
+    width: 100vw;
+    background-color: white;
+}
+.mainbody{
+    height: 85vh;
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mainbody{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.mainbody .rform{
+    display: grid;
+    color: rgb(240, 245, 245);
+    background-color: rgb(0, 0, 0);
+    height:60vh ;
+    width: 40vw;
+    opacity: 0.7; 
+    /* border: 2px solid white; */
+    border-radius: 25px;    
+    justify-content: center;
+}
+.fname{
+    margin-top: 10px;
+    width: 10vw;
+
+}
+
+input[type=text] {
+    margin-top: 5px;
+    margin-left: -10px;
+    height: 25px;
+    width: 20vw;
+    border: 2px solid rgb(231, 223, 223);
+    border-radius: 10px;
+  }
+
+  input[type=date] {
+    margin-top: 5px;
+    display: flex;
+    margin-left: -10px;
+    height: 25px;
+    width: 20vw;
+    border: 2px solid rgb(234, 231, 231);
+    border-radius: 10px;
+  }
+
+  select {
+    margin-top: 5px;
+    display: flex;
+    margin-left: -10px;
+    height: 25px;
+    width: 20vw;
+    border: 2px solid rgb(238, 229, 229);
+    border-radius: 0px;
+  }
+  
+  button {
+    margin-top: 5px;
+    margin-left: -10px;
+    height: 30px;
+    width: 20vw;
+    background-color: brown;
+    border: 2px solid rgb(143, 14, 14);
+    border-radius: 10px;
+    opacity: 9;
+  }
+  button:hover {
+    margin-top: 5px;
+    margin-left: -10px;
+    height: 30px;
+    width: 20vw;
+    color: aliceblue;
+    background-color: rgb(16, 15, 15);
+    border: 2px solid rgb(143, 14, 14);
+    border-radius: 10px;
+    opacity: 9;
+  }
+
+  input[type=number] {
+    display: flex;
+    margin-left: -10px;
+    height: 25px;
+    width: 7vw;
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 20px;
+  }
+
+.lname{
+    margin-top: 20px;
+    width: 10vw;
+
+}
+.when{
+    margin-top: 20px;
+    width: 10vw;
+    margin-bottom:20px;
+}
+.class{
+    margin-top: 5px;
+    margin-left: -10px;
+    height: 25px;
+    width: 20vw;
+    border: 2px solid rgb(231, 223, 223);
+    border-radius: 10px;
+}
+.quantity{
+    margin-top: 20px;
+    display: flex;
+    height: 10vh;
+    width: 20vw;
+    justify-content: space-between;
+}
+
+
